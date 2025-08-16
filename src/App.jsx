@@ -2,6 +2,7 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import { ROUTES } from "./routes";
 import Layout from "./pages/Layout";
+import SoloGames from "./pages/SoloGames";
 
 function App() {
   return (
@@ -13,6 +14,14 @@ function App() {
           element={
             <Layout>
               <Home />
+            </Layout>
+          }
+        />
+        <Route
+          path={ROUTES.SINGLE_PLAYER_GAMES}
+          element={
+            <Layout>
+              <SoloGames />
             </Layout>
           }
         />
