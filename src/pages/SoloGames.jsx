@@ -24,6 +24,7 @@ const SoloGames = () => {
   const soloGamesList = [
     { gameName: "Rocket Shooter", gameFile: GAME_FILES.ROCKET_SHOOTER },
     { gameName: "Gun Shooter", gameFile: GAME_FILES.GUN_SHOOTER },
+    { gameName: "Gun Shooter Arcade", gameFile: GAME_FILES.GUN_SHOOTER_ARCADE },
   ];
 
   return (
